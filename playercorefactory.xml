@@ -1,0 +1,15 @@
+<playercorefactory>
+<players>
+<player name="record" type="ExternalPlayer" audio="false" video="true">
+    <filename>c:\utils\ffmpeg.exe</filename>
+    <args>-i "{1}" -y -c copy -t 4:00:00 c:\temp\test.ts</args>
+    <hidexbmc>false</hidexbmc>
+    <hideconsole>true</hideconsole>
+    <warpcursor>none</warpcursor>
+    <playonestackitem>true</playonestackitem>
+</player>
+</players>
+<!--<rules name="system rules">
+    <rule name="record" protocols="*" player="record" />
+</rules>-->
+</playercorefactory> 

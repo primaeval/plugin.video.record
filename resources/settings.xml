@@ -1,0 +1,5 @@
+<settings>
+<category label="Output">
+<setting id="folder" label="Folder" type="folder" default="" />
+</category>
+</settings>
